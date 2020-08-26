@@ -1,0 +1,52 @@
+@import url('./style.css');
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  display: flex;
+  width: 100%;
+  font-family: 'Neo Sans Arabic Regular';
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin: 1rem;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+h2 {
+  margin: 1rem;
+  font-size: 24px;
+}
