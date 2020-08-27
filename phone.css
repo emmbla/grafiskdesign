@@ -55,7 +55,7 @@ h2 {
   background-image: url('./backgroundphone.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 970px;
+  /* height: 970px; */
   display: flex;
   justify-content: center;
   align-items: center;
