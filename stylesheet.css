@@ -96,13 +96,6 @@ h2 {
   justify-content: center;
 }
 
-.contact {
-  height: 600px;
-  background-image: url('./contactbg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .quote {
   background-image: url('./quotebg.png');
   background-repeat: no-repeat;
@@ -119,6 +112,33 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-style: italic;
+}
+
+.contact {
+  height: 600px;
+  width: 100%;
+  background-image: url('./contactbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactcontainer {
+  height: 100%;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact > p {
+  color: white;
+  font-family: 'Neo Sans Arabic Regular';
+  font-size: 23px;
+  letter-spacing: 1rem;
+  margin-top: 3rem;
 }
 
 footer {
